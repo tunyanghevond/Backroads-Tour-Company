@@ -19,6 +19,66 @@
     <!-- header  -->
     <header id="home">
       <!-- navbar -->
+      <nav class="navbar">
+        <div class="nav-center">
+          <div class="nav-header">
+            <img src="./images/logo.svg" class="nav-logo" alt="logo" />
+            <button type="button" class="nav-toggle" id="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- nav links -->
+          <ul class="nav-links" id="nav-links">
+            <li>
+              <a href="#home" class="nav-link scroll-link">home</a>
+            </li>
+            <li>
+              <a href="#about" class="nav-link scroll-link">about</a>
+            </li>
+            <li>
+              <a href="#services" class="nav-link scroll-link">services</a>
+            </li>
+            <li>
+              <a href="#featured" class="nav-link scroll-link">featured</a>
+            </li>
+            <li>
+              <a href="#gallerry" class="footer-link scroll-link">gallerry</a>
+            </li>
+          </ul>
+          <!-- end of nav links -->
+          <!-- nav icons -->
+          <ul class="nav-icons">
+            <li>
+              <a
+                href="https://www.twitter.com"
+                _target="_blank"
+                class="nav-icon"
+              >
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.twitter.com"
+                _target="_blank"
+                class="nav-icon"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.twitter.com"
+                _target="_blank"
+                class="nav-icon"
+              >
+                <i class="fab fa-squarespace"></i>
+              </a>
+            </li>
+          </ul>
+          <!-- end of nav icons -->
+        </div>
+      </nav>
       <div class="hero">
         <div class="hero-banner">
           <h1>continue exploring</h1>
@@ -115,18 +175,273 @@
     <!--end services -->
 
     <!-- featured tours -->
+    <section class="section" id="featured">
+      <div class="section-title">
+        <h2>featured <span>tours</span></h2>
+      </div>
+      <div class="section-center featured-ceneter">
+        <!-- start of single-card -->
+        <article class="tour-card">
+          <div class="tour-img-center">
+            <img src="./images/tour-1.jpeg" class="tour-img" alt="tour" />
+            <p class="tour-date">August 26th, 2020</p>
+          </div>
+          <div class="tour-info">
+            <h4>Tibet Adventure</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+              corrupti ratione odio deleniti repellendus earum aspernatur
+              accusantium. Blanditiis, sequi at?
+            </p>
+            <div class="tour-footer">
+              <p>
+                <span>
+                  <i class="fas fa-map"></i>
+                  China
+                </span>
+              </p>
+              <p>6 days</p>
+              <p>from $2100</p>
+            </div>
+          </div>
+        </article>
+        <!-- end of single-card -->
+        <!-- start of single-card -->
+        <article class="tour-card">
+          <div class="tour-img-center">
+            <img src="./images/tour-2.jpeg" class="tour-img" alt="tour" />
+            <p class="tour-date">october 1th, 2020</p>
+          </div>
+          <div class="tour-info">
+            <h4>best of java</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+              corrupti ratione odio deleniti repellendus earum aspernatur
+              accusantium. Blanditiis, sequi at?
+            </p>
+            <div class="tour-footer">
+              <p>
+                <span>
+                  <i class="fas fa-map"></i>
+                  Indonesia
+                </span>
+              </p>
+              <p>20 days</p>
+              <p>from $3300</p>
+            </div>
+          </div>
+        </article>
+        <!-- end of single-card -->
+        <!-- start of single-card -->
+        <article class="tour-card">
+          <div class="tour-img-center">
+            <img src="./images/tour-3.jpeg" class="tour-img" alt="tour" />
+            <p class="tour-date">september 15th, 2020</p>
+          </div>
+          <div class="tour-info">
+            <h4>explore hong kong</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+              corrupti ratione odio deleniti repellendus earum aspernatur
+              accusantium. Blanditiis, sequi at?
+            </p>
+            <div class="tour-footer">
+              <p>
+                <span>
+                  <i class="fas fa-map"></i>
+                  hong kong
+                </span>
+              </p>
+              <p>8 days</p>
+              <p>from $5000</p>
+            </div>
+          </div>
+        </article>
+        <!-- end of single-card -->
+        <!-- start of single-card -->
+        <article class="tour-card">
+          <div class="tour-img-center">
+            <img src="./images/tour-4.jpeg" class="tour-img" alt="tour" />
+            <p class="tour-date">december 5th, 2020</p>
+          </div>
+          <div class="tour-info">
+            <h4>kenya highlights</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+              corrupti ratione odio deleniti repellendus earum aspernatur
+              accusantium. Blanditiis, sequi at?
+            </p>
+            <div class="tour-footer">
+              <p>
+                <span>
+                  <i class="fas fa-map"></i>
+                  kenya
+                </span>
+              </p>
+              <p>8 days</p>
+              <p>from $5000</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- end of single-card -->
+      </div>
+      <div class="tour-btn">
+        <a href="#" class="btn">all tours</a>
+      </div>
+    </section>
     <!-- end of featured tours -->
 
     <!-- contact -->
+    <section class="section contact" id="contact">
+      <div class="section-center contact-ceneter">
+        <article class="contact-title">
+          <h3>want latest tour info and updates</h3>
+          <p>Sign up for newsletter and stay up to data</p>
+        </article>
+        <form class="contact-form">
+          <input
+            type="email"
+            name="email"
+            class="form-controle"
+            placeholder="your email"
+          />
+          <button type="submit" class="btn-submit">Submit</button>
+        </form>
+      </div>
+    </section>
 
     <!-- end of contact -->
 
     <!-- gallery  -->
+    <section id="gallery">
+      <div class="gallery-center">
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img src="./images/tour-1.jpeg" class="gallery-img" alt="lorem" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img src="./images/tour-2.jpeg" class="gallery-img" alt="lorem" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img src="./images/tour-3.jpeg" class="gallery-img" alt="lorem" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img src="./images/tour-4.jpeg" class="gallery-img" alt="lorem" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img src="./images/tour-5.jpeg" class="gallery-img" alt="lorem" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img src="./images/tour-6.jpeg" class="gallery-img" alt="lorem" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img src="./images/tour-2.jpeg" class="gallery-img" alt="lorem" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img src="./images/tour-1.jpeg" class="gallery-img" alt="lorem" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+      </div>
+    </section>
 
     <!-- end of gallery  -->
 
     <!-- footer -->
-
+    <footer class="section footer">
+      <!-- footer links -->
+      <ul class="footer-links">
+        <li>
+          <a href="#home" class="footer-link scroll-link">home</a>
+        </li>
+        <li>
+          <a href="#about" class="footer-link scroll-link">about</a>
+        </li>
+        <li>
+          <a href="#services" class="footer-link scroll-link">services</a>
+        </li>
+        <li>
+          <a href="#featured" class="footer-link scroll-link">featured</a>
+        </li>
+        <li>
+          <a href="#gallerry" class="footer-link scroll-link">gallerry</a>
+        </li>
+      </ul>
+      <!-- end of footer links -->
+      <!-- footer icons -->
+      <ul class="footer-icons">
+        <li>
+          <a
+            href="https://www.twitter.com"
+            _target="_blank"
+            class="footer-icon"
+          >
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.twitter.com"
+            _target="_blank"
+            class="footer-icon"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.twitter.com"
+            _target="_blank"
+            class="footer-icon"
+          >
+            <i class="fab fa-squarespace"></i>
+          </a>
+        </li>
+      </ul>
+      <!-- end of footer icons -->
+      <p class="copyright">
+        copyright &copy; backroads travel tour company <span id="date"></span>.
+        all rights reserved
+      </p>
+    </footer>
     <!-- js -->
     <script src="./js/app.js"></script>
   </body>
